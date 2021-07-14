@@ -6,7 +6,7 @@ gstreamer官方虽然提供了windos下安装的示例，但不知是否因为�
     IDE:  Visual Studio 2019  
     gstreamer版本：1.19.1  
 
-gstreamer安装过程：  
+一、gstreamer安装过程：  
     1.  首先去https://gstreamer.freedesktop.org/data/pkg/windows 选择对应gstreamer版本的安装包，这里选择的是1.19.1/msvc/  
       下载gstreamer-1.0-devel-msvc-x86-1.19.1.msi以及gstreamer-1.g0-msvc-x86-1.19.1.msi两个安装包  
     2.  关闭Visual Studio 2019及相关程序  
@@ -26,7 +26,7 @@ gstreamer安装过程：
     9.  打开CMD或PowerShell  输入命令：gst-launch-1.0.exe videotestsrc ! videoconvert ! autovideosink 出现画面，说明安装成功
     ![image](https://github.com/Elonaever/gstreamer-/blob/main/pictures/install-7.png)  
     
-gstreamer-tutorial Visual Studio 2019开发环境配置过程：  
+二、gstreamer-tutorial Visual Studio 2019开发环境配置过程：  
     1.  前往https://gitlab.freedesktop.org/gstreamer/gst-docs 下载tutorial代码文件压缩包，并解压至gstreamer同一目录(可选)
     ![image](https://github.com/Elonaever/gstreamer-/blob/main/pictures/install-8.png)  
     ![image](https://github.com/Elonaever/gstreamer-/blob/main/pictures/install-9.png)   
