@@ -10,7 +10,7 @@ gstreamer安装过程：
     1.  首先去https://gstreamer.freedesktop.org/data/pkg/windows 选择对应gstreamer版本的安装包，这里选择的是1.19.1/msvc/  
       下载gstreamer-1.0-devel-msvc-x86-1.19.1.msi以及gstreamer-1.g0-msvc-x86-1.19.1.msi两个安装包  
     2.  关闭Visual Studio 2019及相关程序  
-    3.  安装gstreamer-1.g0-msvc-x86-1.19.1.msi，安装过程中选择Complete  
+    3.  安装gstreamer-1.0-msvc-x86-1.19.1.msi，安装过程中选择Complete  
         注意：默认安装目录会选择你剩余空间最大磁盘，这里我只有一个C盘，因此默认安装目录为C:\gstreamer，之后我写C:\gstreamer的地方可根据自己的实际安装目录进行更改  
     ![image](https://github.com/Elonaever/gstreamer-/blob/main/pictures/install-1.png)  
     4.  安装gstreamer-1.0-devel-msvc-x86-1.19.1.msi，同样选择Complete  
