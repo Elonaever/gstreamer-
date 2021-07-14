@@ -61,3 +61,8 @@ gstreamer官方虽然提供了windows下安装的示例，但不知是否因为�
     12.  右键项目名-调试-启动新实例，成功编译并执行项目，恭喜，环境配置成功！
     ![image](https://github.com/Elonaever/gstreamer-/blob/main/pictures/install-26.png)
     
+    
+    
+    参考文章：
+        https://gstreamer.freedesktop.org/documentation/installing/on-windows.html?gi-language=c    
+        https://homanhuang.medium.com/back-to-the-gstreamer-basic-1-c-vs2019-d516c35c9e2f#14cd   
