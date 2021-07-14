@@ -1,0 +1,17 @@
+gstreamer官方虽然提供了windos下安装的示例，但不知是否因为年代过于久远，按教程操作无法正确配置编译环境。
+通过查找相关资料，总结了Win10-VS2019环境下gstreamer相关的安装及开发环境配置方法：
+
+操作系统： Windows10 ver.1909 64位操作系统
+IDE:  Visual Studio 2019
+gstreamer版本：1.19.1
+
+安装过程：
+    1.首先去https://gstreamer.freedesktop.org/data/pkg/windows/选择对应gstreamer版本的安装包，这里选择的是1.19.1/msvc/
+      下载gstreamer-1.0-devel-msvc-x86-1.19.1.msi以及	gstreamer-1.g0-msvc-x86-1.19.1.msi两个安装包
+    2.关闭Visual studio 2019及相关程序
+    3.安装gstreamer-1.g0-msvc-x86-1.19.1.msi，安装过程中选择Complete, 默认安装目录会选择你剩余空间最大磁盘，这里我只有一个C盘，因此默认安装目录为C:\gstreamer
+    4.安装gstreamer-1.0-devel-msvc-x86-1.19.1.msi，同样选择Complete
+    5.打开系统环境变量，查看用户变量中是否存在GSTREAMER_1_0_ROOT_MSVC_X86_64，若不存在，则注销账户重新登录
+    6.编辑系统环境变量PATH，新建值%GSTREAMER_1_0_ROOT_MSVC_X86_64%\bin
+    7.新建系统环境变量，变量名GST_PLUGIN_SYSTEM_PATH， 变量值为%GSTREAMER_1_0_ROOT_MSVC_X86_64%\lib\gstreamer-1.0
+    
